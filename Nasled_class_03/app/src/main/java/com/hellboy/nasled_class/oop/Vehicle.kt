@@ -16,7 +16,7 @@ open class Vehicle (
         //private set
          protected set // можем установить fuelCount из класса
                        // наследника но из других мест будет недоступна
-    // НАСЛЕДОВАНИЕ
+
     open fun getTitle(): String {
         return "Vehicle"
     }
