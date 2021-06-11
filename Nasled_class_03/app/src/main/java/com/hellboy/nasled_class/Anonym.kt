@@ -3,7 +3,7 @@ package com.hellboy.nasled_class
 import com.hellboy.nasled_class.oop.Shape
 
 fun main() {
-    val test: String = "Палучилась"
+
     val shape = object: Shape {  // можно через запятую еще на втыкать интерфейсов
 
         val additionalField = 123
