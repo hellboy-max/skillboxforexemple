@@ -42,6 +42,28 @@ fun closeDoor() {
            acselerate(speed) // будет вызвана
         }
     }
+
+    override fun equals(other: Any?): Boolean {
+        if (this === other) return true
+        if (javaClass != other?.javaClass) return false
+
+        other as Car
+
+        if (wheelCount != other.wheelCount) return false
+        if (doorCount != other.doorCount) return false
+        if (isDoorOpen != other.isDoorOpen) return false
+
+        return true
+    }
+
+    override fun hashCode(): Int {
+        var result = wheelCount
+        result = 31 * result + doorCount
+        result = 31 * result + isDoorOpen.hashCode()
+        return result
+    }
+
+
 }                      // если ничего не передается то есть нет основного
                                              // конструктора в родительском классе
                                              // то указываем пустые скрбки
