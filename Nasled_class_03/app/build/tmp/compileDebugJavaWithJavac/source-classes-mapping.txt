@@ -1,0 +1,2 @@
+com/hellboy/nasled_class/BuildConfig.java
+ com.hellboy.nasled_class.BuildConfig

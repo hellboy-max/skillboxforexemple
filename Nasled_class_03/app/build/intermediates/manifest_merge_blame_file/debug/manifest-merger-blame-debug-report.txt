@@ -1,0 +1,46 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hellboy.nasled_class"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Rogovskiy\skillboxforexemple\Nasled_class_03\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\Rogovskiy\skillboxforexemple\Nasled_class_03\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\Rogovskiy\skillboxforexemple\Nasled_class_03\app\src\main\AndroidManifest.xml:5:5-19:19
+12        android:allowBackup="true"
+12-->D:\Rogovskiy\skillboxforexemple\Nasled_class_03\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0] C:\Users\rogovskiy_mi\.gradle\caches\transforms-2\files-2.1\2035b8ef85a6eac2fc4525b65dd8dd0d\core-1.5.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->D:\Rogovskiy\skillboxforexemple\Nasled_class_03\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->D:\Rogovskiy\skillboxforexemple\Nasled_class_03\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->D:\Rogovskiy\skillboxforexemple\Nasled_class_03\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->D:\Rogovskiy\skillboxforexemple\Nasled_class_03\app\src\main\AndroidManifest.xml:10:9-35
+19        android:theme="@style/Theme.Nasled_class" >
+19-->D:\Rogovskiy\skillboxforexemple\Nasled_class_03\app\src\main\AndroidManifest.xml:11:9-50
+20        <activity android:name="com.hellboy.nasled_class.MainActivity" >
+20-->D:\Rogovskiy\skillboxforexemple\Nasled_class_03\app\src\main\AndroidManifest.xml:12:9-18:20
+20-->D:\Rogovskiy\skillboxforexemple\Nasled_class_03\app\src\main\AndroidManifest.xml:12:19-47
+21            <intent-filter>
+21-->D:\Rogovskiy\skillboxforexemple\Nasled_class_03\app\src\main\AndroidManifest.xml:13:13-17:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->D:\Rogovskiy\skillboxforexemple\Nasled_class_03\app\src\main\AndroidManifest.xml:14:17-69
+22-->D:\Rogovskiy\skillboxforexemple\Nasled_class_03\app\src\main\AndroidManifest.xml:14:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->D:\Rogovskiy\skillboxforexemple\Nasled_class_03\app\src\main\AndroidManifest.xml:16:17-77
+24-->D:\Rogovskiy\skillboxforexemple\Nasled_class_03\app\src\main\AndroidManifest.xml:16:27-74
+25            </intent-filter>
+26        </activity>
+27    </application>
+28
+29</manifest>
