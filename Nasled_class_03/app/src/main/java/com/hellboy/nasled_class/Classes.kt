@@ -5,7 +5,7 @@ import com.hellboy.nasled_class.oop.Vehicle
 
 fun main() {
 
-    val tesla = Car(wheelCount = 4, doorCount = 2,150)
+    val tesla = Car(doorCount = 2, maxSpeed = 150, wheelCount = 200)
 
 //
 //    tesla.refFuel(100)   - 1 вариант

@@ -1,5 +1,7 @@
 package com.hellboy.nasled_class
 
+import com.hellboy.nasled_class.oop.Car
+
 fun main() {
     val user1 = User("name1","lastName1")
     user1.innerState = "state1"  /// можно делать дубликаты а переменные в теле класса можно изменять
@@ -22,4 +24,25 @@ fun main() {
 //    println("lastName = ${user5.lastname}")
     println("name = $name")
     println("lastName = $lastname")
+
+    val users = listOf(
+        user1,
+        user2,
+        user3
+    )
+    users.forEach { (name, lastname) -> println("$name, $lastname") }
+
+    //val (wheelCount,doorCount) = Car(wheelCount = 4, doorCount = 2, 20 )
+    // теперь можно использовать компоненты wheelCount,doorCount
+
+    val map = mapOf(
+        1 to "1",
+        2 to "2"
+    )
+    for ((key, value) in map){     // это возможно потому что в mapEntry переопределены компонены
+        println("key = $key, value = $value")                           //  component1 и component2
+
+    }
+
+
 }

@@ -1,10 +1,21 @@
 package com.hellboy.nasled_class.oop
 
-class Car (
-    val wheelCount: Int,  // добавляем основные свойства
-    val doorCount: Int,
+import com.hellboy.nasled_class.Engeen
+import com.hellboy.nasled_class.User
+
+class Car(
+    val wheelCount: Int,
+    val doorCount: Int,  // добавляем основные свойства
     maxSpeed: Int
 ): Vehicle(maxSpeed) {
+    operator  fun component1(): Int = wheelCount
+    operator  fun component2(): Int = doorCount
+    private lateinit var driver: User
+
+    private val engeen by lazy {
+        Engeen()
+    }
+
     var isDoorOpen: Boolean = false
         private set
 fun openDoor() {
@@ -12,7 +23,14 @@ fun openDoor() {
     isDoorOpen = true
     }
 fun closeDoor() {
-        if (isDoorOpen) println("Дверь закрыта")
+        if (isDoorOpen) {
+            println("Дверь закрыта")
+            if (::driver.isInitialized){  // проверка былоли инициализировано свойство
+                println("Driver: $driver") // должны убедиться в что в момент использования
+                // свойство будет предварительно инициализировано!!!
+            }
+
+        }
         isDoorOpen = false
     //fuelCount = 120 // если в родителе set - область видимости protected
 }
@@ -20,6 +38,8 @@ fun closeDoor() {
      override fun acselerate(speed: Int) { // переопределение метода overaiding - Изменение
                                           // метода без изменения асигнатуры тоесть остается
                                           // название функции и входящие параметры
+       engeen.use()  // инициализация перед использованием при помощи lazy
+                     // инициализация перед созданием engeen
         if (isDoorOpen) {
             println("невозможно ехать с открытой дверью")
         }
@@ -29,6 +49,9 @@ fun closeDoor() {
          //useFuel(23) // если open protrcted в родителе то можо использовать тут
     }
 
+    fun setDriver(driver:User){
+        this.driver = driver
+    }
     override fun getTitle(): String = "Car" // переопределяем getTitle
 
     override fun useFuel(fuelCount: Int) {

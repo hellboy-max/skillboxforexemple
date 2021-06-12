@@ -14,7 +14,7 @@ fun main() {
     listOf<Vehicle>(
         Vehicle(100),
         AirPlane(300),
-        Car(4,2,300)
+        Car(2, 300,200)
     ).forEach{
         println(it.getTitle())               // переопределение методов работает таким
                                              // образом в этом и проявляется полиморфизм
