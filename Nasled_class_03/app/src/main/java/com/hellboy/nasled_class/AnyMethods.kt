@@ -11,7 +11,7 @@ fun main(){
     println("Car1 equals to Car2 by ref : ${car1===car2} ")
     println("Car1 equals to Car3 by ref : ${car1===car3} ")
     println("Car1 equals to Car2 by ref : ${car1==car2} ")
-
+    println("Все получилось")
     val cars = listOf(
         car1,
         Car(4,2,200),
