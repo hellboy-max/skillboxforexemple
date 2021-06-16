@@ -1,5 +1,7 @@
 package com.hellboy.nasled_class
 
+import java.util.*
+
 enum class Color (
     val hex: String
 ): Drawable{
@@ -19,5 +21,10 @@ enum class Color (
 
     override fun draw() {
         println("Draw color")
+    }
+    companion object {
+        fun fromName(name:String): Color? {
+        return values().find { it.name == name.uppercase() }
+        }
     }
 }

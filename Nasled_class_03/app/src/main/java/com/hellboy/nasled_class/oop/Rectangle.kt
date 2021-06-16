@@ -28,4 +28,11 @@ class Rectangle(
     override fun toString(): String {
         return "Rectangle(wight= $widht, height = $height)"
     }
+
+    operator fun plus(other: Rectangle): Rectangle {
+          return Rectangle(0,0,widht+ other.widht, height+other.height )
+    }
+    operator fun unaryMinus() : Rectangle {
+        return Rectangle(0,0,-widht,-height)
+    }
 }
