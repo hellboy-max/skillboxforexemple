@@ -85,7 +85,13 @@ fun closeDoor() {
         result = 31 * result + isDoorOpen.hashCode()
         return result
     }
+    companion object {
+        val default = Car(4,4,200)
 
+        fun createWithDefaultWheelCount (doorCount: Int, maxSpeed: Int): Car{
+            return Car (wheelCount = 4,doorCount = 4,200 )
+        }
+    }  // добавляется в самом конце класса
 
 }                      // если ничего не передается то есть нет основного
                                              // конструктора в родительском классе
