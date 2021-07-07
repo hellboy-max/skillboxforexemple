@@ -26,7 +26,7 @@ fun main(){
         return emptyList()
     }
 
-    val car = Car(4,2,200) { println("iggi") }
+    val car = Car(4,2,200) //{ println("iggi") }
     car.openDoor { println("open door custom") }
 
     makeCalculation ({

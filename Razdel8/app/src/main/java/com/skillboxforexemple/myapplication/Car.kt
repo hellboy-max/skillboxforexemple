@@ -4,7 +4,7 @@ class Car(
     val wheelCount: Int,
     val doorCount: Int,  // добавляем основные свойства
     maxSpeed: Int,
-    val callback: () -> Unit
+    //val callback: () -> Unit
 ): Vehicle(maxSpeed) {
     operator  fun component1(): Int = wheelCount
     operator  fun component2(): Int = doorCount
