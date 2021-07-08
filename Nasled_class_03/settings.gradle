@@ -1,2 +1,3 @@
 rootProject.name = "Nasled_class"
 include ':app'
+include ':app:homework_8_7'
