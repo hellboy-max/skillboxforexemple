@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="@string/Action1"
+        android:id="@+id/action_1"/>
+    <item
+        android:id="@+id/action_2"
+        android:icon="@drawable/ic_attachment"
+        android:iconTint="@android:color/white"
+        app:iconTint="@android:color/white"
+        app:showAsAction="ifRoom"
+        android:title="@string/Action2" />
+    <item
+        android:id="@+id/actionSearsh"
+        android:iconTint="@android:color/white"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/actionSearch"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+
+</menu>

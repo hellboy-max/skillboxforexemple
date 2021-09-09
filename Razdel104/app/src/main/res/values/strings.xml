@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">themView_101</string>
+    <string name="text_view">Text View</string>
+    <string name="name_hint">Введите свое имя</string>
+    <string name="hellow_string">Привет, %1$s</string>
+    <string name="clear_text">Очистить</string>
+    <string name="cleared_text">Текст был очищен</string>
+    <string name="make_long_operation">Совершить долгую операцию</string>
+    <string name="long_operation_complete">Операция Завершена</string>
+    <string name="enter_text">Ведите текст</string>
+    <string name="add_text">Добавить</string>
+    <string name="x">X</string>
+</resources>
