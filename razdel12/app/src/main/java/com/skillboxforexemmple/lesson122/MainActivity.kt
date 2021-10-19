@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 //            Log.d(tag, "On Create was Called")
 //        }
         buttonIncrease.setOnClickListener {
-            state = state.increment()
+            state.increment().also { state = it }
             updateCurrentText()
         }
         buttonDecrease.setOnClickListener {
