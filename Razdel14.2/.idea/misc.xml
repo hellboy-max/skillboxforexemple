@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/SkillBoxForExemple/Razdel14.2/app/src/main/res/layout/activity_backstack.xml" value="0.36666666666666664" />
+        <entry key="..\:/SkillBoxForExemple/Razdel14.2/app/src/main/res/layout/activity_interaction.xml" value="0.36666666666666664" />
         <entry key="..\:/SkillBoxForExemple/Razdel14.2/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/SkillBoxForExemple/Razdel14.2/app/src/main/res/layout/fragment_info.xml" value="0.25" />
+        <entry key="..\:/SkillBoxForExemple/Razdel14.2/app/src/main/res/layout/fragment_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/SkillBoxForExemple/Razdel14.2/app/src/main/res/layout/fragment_list2.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
