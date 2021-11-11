@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ViewPagerApp</string>
+    <string name="on_boarding_string_1">Армянин</string>
+    <string name="on_boarding_string_2">Грузин</string>
+    <string name="on_boarding_string_3">Русский</string>
+    <string name="on_boarding_string_4">Немец</string>
+    <string name="on_boarding_string_5">Француз</string>
+</resources>
