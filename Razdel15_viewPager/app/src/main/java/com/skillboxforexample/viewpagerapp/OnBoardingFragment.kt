@@ -14,8 +14,8 @@ class OnBoardingFragment:Fragment(R.layout.fragment_onboarding) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding = FragmentOnboardingBinding.bind(requireView())
-        requireView().setBackgroundResource(requireArguments().getInt(KEY_COLOR))
+        binding = FragmentOnboardingBinding.bind(view)
+        view.setBackgroundResource(requireArguments().getInt(KEY_COLOR))
         binding.imageView.setImageResource(requireArguments().getInt(KEY_IMAGE))
         binding.textView.setText(requireArguments().getInt(KEY_TEXT))
     }

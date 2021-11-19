@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/SkillBoxForExemple/Razdel15_viewPager/app/src/main/res/layout/activity_dialog.xml" value="0.20520833333333333" />
         <entry key="..\:/SkillBoxForExemple/Razdel15_viewPager/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/SkillBoxForExemple/Razdel15_viewPager/app/src/main/res/layout/activity_tabs.xml" value="0.36666666666666664" />
+        <entry key="..\:/SkillBoxForExemple/Razdel15_viewPager/app/src/main/res/layout/dialog_attention.xml" value="0.36666666666666664" />
+        <entry key="..\:/SkillBoxForExemple/Razdel15_viewPager/app/src/main/res/layout/dialog_bottomsheet.xml" value="0.36666666666666664" />
         <entry key="..\:/SkillBoxForExemple/Razdel15_viewPager/app/src/main/res/layout/fragment_onboarding.xml" value="0.36666666666666664" />
       </map>
     </option>
